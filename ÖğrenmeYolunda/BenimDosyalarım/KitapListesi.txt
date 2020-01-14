@@ -1,4 +1,0 @@
-4623:Python:Mustafa:Baser:23
-99879:LinuxAgServisleri:Mustafa:Baser:26
-98938:İsletimSistemleri:Ali:Saatci:17
-98947:PHPveAJAX:Haydar:Tuna:25
