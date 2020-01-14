@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="" />
+    <list default="true" id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14-Sıfıra Yaklaşım Deneme.py" beforeDir="false" afterPath="$PROJECT_DIR$/14-Sıfıra Yaklaşım Deneme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Denemeler.py" beforeDir="false" afterPath="$PROJECT_DIR$/Denemeler.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PythonDjango" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
