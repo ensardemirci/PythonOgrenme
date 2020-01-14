@@ -212,14 +212,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1577720401512" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579007992447">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579008154124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579007992447" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579008154124" />
     <state x="707" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576671029965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1576671029965" />
+    <state x="761" y="312" key="git4idea.merge.GitMergeDialog" timestamp="1579008185628">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="312" key="git4idea.merge.GitMergeDialog/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579008185628" />
+    <state x="778" y="421" key="git4idea.ui.GitStashDialog" timestamp="1579008140510">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="778" y="421" key="git4idea.ui.GitStashDialog/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579008140510" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578495664914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
