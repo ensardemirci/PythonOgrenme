@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Denemeler.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1Tpho3K6KL8OhMrtpmNjsHT7gzz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ensar\PycharmProjects\ÖğrenmeYolunda" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Denemeler">
+    <configuration name="24-İski güncel indeks alma ve yazdırma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ÖğrenmeYolunda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24-İski güncel indeks alma ve yazdırma.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="25-Kaçış karakterleri ve stringler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ÖğrenmeYolunda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/25-Kaçış karakterleri ve stringler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="26-Cümle(string) özellikleri" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ÖğrenmeYolunda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26-Cümle(string) özellikleri.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="31-Telefon rehberi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ÖğrenmeYolunda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/31-Telefon rehberi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Denemeler" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ÖğrenmeYolunda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Denemeler.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Denemeler" />
+        <item itemvalue="Python.31-Telefon rehberi" />
+        <item itemvalue="Python.26-Cümle(string) özellikleri" />
+        <item itemvalue="Python.25-Kaçış karakterleri ve stringler" />
+        <item itemvalue="Python.24-İski güncel indeks alma ve yazdırma" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="" />
+      <created>1574163115481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574163115481</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579005949846">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579005949846" />
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1578499858056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1578499858056" />
+    <state width="1899" height="291" key="GridCell.Tab.0.center" timestamp="1578499858056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1578499858056" />
+    <state width="1899" height="291" key="GridCell.Tab.0.left" timestamp="1578499858056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1578499858056" />
+    <state width="1899" height="291" key="GridCell.Tab.0.right" timestamp="1578499858056">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1578499858056" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1577720401512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1577720401512" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1577720401512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1577720401512" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1577720401512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1577720401512" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1577720401512">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1577720401512" />
+    <state x="707" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1576671029965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1576671029965" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578495664914">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1578495664914" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/52-Patikanın klasör mü dosya mı olduğu.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
