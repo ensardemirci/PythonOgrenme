@@ -21,6 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Denemeler.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1Tpho3K6KL8OhMrtpmNjsHT7gzz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,7 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PythonDjango" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -179,10 +180,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579005949846">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579009760683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579005949846" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579009760683" />
     <state width="1899" height="291" key="GridCell.Tab.0.bottom" timestamp="1578499858056">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
