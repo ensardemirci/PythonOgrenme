@@ -1,0 +1,3 @@
+def soyle():
+    print("yazdırıldı")
+
