@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="560022ca-8d62-47c5-8ce0-120449f62e2c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PythonDjango" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
@@ -185,10 +183,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579009760683">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1579426538223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579009760683" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.179.1440.860@0.0.1920.1040" timestamp="1579426538223" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1579387358990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
