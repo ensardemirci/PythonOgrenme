@@ -1,50 +1,40 @@
 import sqlite3
 from columnar import columnar
-from KendiProjelerim import dboptions,createdb
+from KendiProjelerim import dboptions
 
-conn = sqlite3.connect('D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db')
+dir = 'D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db'
+conn = sqlite3.connect(dir)
 cur = conn.cursor()
-
-"""
-cur.execute(''' CREATE TABLE WorkerList(
-worker_no INTEGER PRIMARY KEY AUTOINCREMENT,
-city_name VARCHAR(50),
-work_place VARCHAR(50),
-product VARCHAR(50),
-working_count INTEGER,
-not_working_count INTEGER,
-total_count INTEGER ) ''') 
-"""
-def deldb():
-    dboptions.deletedb()
-    createdb.createtable()
 
 def mainmenu():
     print('\nAna Menü')
-    first = input('\t İşçi [E]kle \t Liste [G]öster \t İşçi [S]il \t Kapat [K]aydet \n --->').strip()
+    try:
+        first = input('\t İşçi [E]kle \t Liste [G]öster \t İşçi [S]il \t Kapat [K]aydet \t [D]atabase \n --->').strip()
 
-    if first.lower() == 'e':
-        addworker()
-        mainmenu()
+        if first.lower() == 'e':
+            addworker()
+            mainmenu()
 
-    elif first.lower() == 'g':
-        showlist()
-        mainmenu()
+        elif first.lower() == 'g':
+            showlist()
+            mainmenu()
 
-    elif first.lower() == 's':
-        deleteworker()
-        mainmenu()
-    elif first.lower() == 'k':
-        conn.close()
-    elif first.lower() == 'r':
-        conn.close()
-        deldb()
+        elif first.lower() == 's':
+            deleteworker()
+            mainmenu()
+        elif first.lower() == 'k':
+            conn.close()
+        elif first.lower() == 'd':
+            conn.close()
+            dbmenu()
+    except ValueError:
+        print('Yanlış giriş yapıldı. Tekrar deneyiniz.')
         mainmenu()
 
 def addworker():
-    i_city_name = input('Şehir ismini giriniz: ').strip()
-    i_work_place = input('Çalışma alanını giriniz: ').strip()
-    i_product = input('Çıkan ürünü giriniz: ').strip()
+    i_city_name = input('Şehir ismini giriniz: ').strip().capitalize()
+    i_work_place = input('Çalışma alanını giriniz: ').strip().title()
+    i_product = input('Çıkan ürünü giriniz: ').strip().title()
     i_working_count = int(input('Çalışan işçi sayısını giriniz: ').strip())
     i_not_working_count = int(input('Boşta işçi sayısını giriniz: ').strip())
     i_total_count = i_not_working_count + i_working_count
@@ -78,28 +68,37 @@ def showlist():
         print('Liste Boş')
 
 def deleteworker():
-    list = cur.execute(' SELECT * FROM WorkerList').fetchall()
-    print('''Kayıt No \t Şehir İsmi \t Çalışma Alanı \t\t Çıkan Ürün \t Çalışan İşçi Sayısı \t Boşta İşçi Sayısı \t Toplam İşçi Sayısı''')
-    print('''======== \t ========== \t ============= \t\t ========== \t =================== \t ================= \t ==================''')
-    for row in list:
-        print('\t{0[0]} \t\t {0[1]} \t\t\t {0[2]} \t {0[3]} \t\t\t\t {0[4]} \t\t\t\t\t\t {0[5]} \t\t\t\t\t {0[6]}'.format(row))
+    list_u = list(cur.execute(' SELECT * FROM WorkerList').fetchall())
+    list_n = []
+    for row in list_u:
+        list_n.append([row[0],row[1],row[2],row[3],row[4],row[5],row[6]])
+    header = [' KAYIT NO ',' ŞEHİR İSMİ ',' ÇALIŞMA ALANI ', ' ÇIKAN ÜRÜN ', ' ÇALIŞAN İŞÇİ SAYISI ', ' BOŞTA İŞÇİ SAYISI ',' TOPLAM İŞÇİ SAYISI ']
+    try:
+        table = columnar(list_n, header, no_borders=False, terminal_width=500, max_column_width=20, wrap_max=1, justify='c')
+        print(table)
+        del_no = input('Silmek istediğiniz satırın Kayıt No giriniz: ')
 
-    del_no = input('Silmek istediğiniz satırın Kayıt No giriniz: ')
+        cur.execute(''' DELETE FROM WorkerList WHERE worker_no = '{0}' '''.format(del_no))
+        showlist()
+        last = input('Kaydetmek için E basınız. \n --->')
+        if last.lower() == 'e':
+            conn.commit()
+        else:
+            mainmenu()
+    except IndexError:
+        print('Liste Boş')
 
-    cur.execute('DELETE FROM WorkerList WHERE worker_no = "{0}" '.format(del_no))
 
-    list_n = cur.execute(' SELECT * FROM WorkerList').fetchall()
-    for row in list_n:
-        list.append(row)
-    print('''Kayıt No \t Şehir İsmi \t Çalışma Alanı \t Çıkan Ürün \t Çalışan İşçi Sayısı \t Boşta İşçi Sayısı \t Toplam İşçi Sayısı''')
-    print('''======== \t ========== \t ============= \t ========== \t =================== \t ================= \t ==================''')
-    for row in list:
-        print('\t{0[0]} \t\t {0[1]} \t\t\t {0[2]} \t {0[3]} \t\t\t\t {0[4]} \t\t\t\t\t\t {0[5]} \t\t\t\t\t {0[6]}'.format(row))
 
-    last = input('Kaydetmek için E basınız.')
+# def update():
 
-    if last.lower() == 'e':
-        conn.commit()
+
+def dbmenu():
+    last = input('Database Ayarları \n [Y]edekle ve Sil \t [V]azgeç \n ---> ').strip()
+    if last.lower() == 'y':
+        dboptions.backup()
+        dboptions.deletedb()
+        dboptions.createtable()
     else:
         mainmenu()
 

@@ -18,10 +18,10 @@ def createtable():
     conn = sqlite3.connect(dir)
     cur = conn.cursor()
     cur.execute(''' CREATE TABLE WorkerList(
-    worker_no INTEGER PRIMARY KEY AUTOINCREMENT,
-    city_name VARCHAR(50),
-    work_place VARCHAR(50),
-    product VARCHAR(50),
-    working_count INTEGER,
-    not_working_count INTEGER,
+    worker_no INTEGER PRIMARY KEY ,
+    city_name VARCHAR(50) NOT NULL ,
+    work_place VARCHAR(50) NOT NULL ,
+    product VARCHAR(50) NOT NULL ,
+    working_count INTEGER NOT NULL ,
+    not_working_count INTEGER NOT NULL ,
     total_count INTEGER ) ''')
