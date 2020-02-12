@@ -1,6 +1,6 @@
 import sqlite3
 from columnar import columnar
-from KendiProjelerim import resetdb,createdb
+from KendiProjelerim import dboptions,createdb
 
 conn = sqlite3.connect('D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db')
 cur = conn.cursor()
@@ -16,7 +16,7 @@ not_working_count INTEGER,
 total_count INTEGER ) ''') 
 """
 def deldb():
-    resetdb.resetdb()
+    dboptions.deletedb()
     createdb.createtable()
 
 def mainmenu():

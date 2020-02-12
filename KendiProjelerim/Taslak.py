@@ -1,27 +1,14 @@
 import sqlite3
 from columnar import columnar
-from KendiProjelerim import resetdb,createdb
+from KendiProjelerim import dboptions
 
-conn = sqlite3.connect('D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db')
+dir = 'D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db'
+conn = sqlite3.connect(dir)
 cur = conn.cursor()
-
-"""
-cur.execute(''' CREATE TABLE WorkerList(
-worker_no INTEGER PRIMARY KEY AUTOINCREMENT,
-city_name VARCHAR(50),
-work_place VARCHAR(50),
-product VARCHAR(50),
-working_count INTEGER,
-not_working_count INTEGER,
-total_count INTEGER ) ''') 
-"""
-def deldb():
-    resetdb.resetdb()
-    createdb.createtable()
 
 def mainmenu():
     print('\nAna Menü')
-    first = input('\t İşçi [E]kle \t Liste [G]öster \t İşçi [S]il \t Kapat [K]aydet \n --->').strip()
+    first = input('\t İşçi [E]kle \t Liste [G]öster \t İşçi [S]il \t Kapat [K]aydet \t [D]atabase \n --->').strip()
 
     if first.lower() == 'e':
         addworker()
@@ -36,9 +23,9 @@ def mainmenu():
         mainmenu()
     elif first.lower() == 'k':
         conn.close()
-    elif first.lower() == 'r':
+    elif first.lower() == 'd':
         conn.close()
-        deldb()
+        dbmenu()
         mainmenu()
 
 def addworker():
@@ -100,6 +87,15 @@ def deleteworker():
 
     if last.lower() == 'e':
         conn.commit()
+    else:
+        mainmenu()
+
+def dbmenu():
+    last = input('Database Ayarları \n [Y]edekle ve Sil \t [V]azgeç \n ---> ').strip()
+    if last.lower() == 'y':
+        dboptions.backup()
+        dboptions.deletedb()
+        dboptions.createtable()
     else:
         mainmenu()
 
