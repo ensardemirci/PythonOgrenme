@@ -9,7 +9,7 @@ cur = conn.cursor()
 def mainmenu():
     print('\nAna Menü')
     try:
-        first = input('\t İşçi [E]kle \t Liste [G]öster \t [L]iste Güncelle \t İşçi [S]il \t Kapat [K]aydet \t [D]atabase \n --->').strip()
+        first = input('\t İşçi [E]kle \t Liste [G]öster \t İşçi [S]il \t Kapat [K]aydet \t [D]atabase \n --->').strip()
 
         if first.lower() == 'e':
             addworker()
@@ -24,9 +24,6 @@ def mainmenu():
             mainmenu()
         elif first.lower() == 'k':
             conn.close()
-        elif first.lower() == 'l':
-            update()
-            mainmenu()
         elif first.lower() == 'd':
             conn.close()
             dbmenu()
@@ -91,34 +88,17 @@ def deleteworker():
     except IndexError:
         print('Liste Boş')
 
-def update():
-    list_u = list(cur.execute(' SELECT * FROM WorkerList').fetchall())
-    list_n = []
-    for row in list_u:
-        list_n.append([row[0],row[1],row[2],row[3],row[4],row[5],row[6]])
-    header = [' KAYIT NO ',' ŞEHİR İSMİ ',' ÇALIŞMA ALANI ', ' ÇIKAN ÜRÜN ', ' ÇALIŞAN İŞÇİ SAYISI ', ' BOŞTA İŞÇİ SAYISI ',' TOPLAM İŞÇİ SAYISI ']
-    try:
-        table = columnar(list_n, header, no_borders=False, terminal_width=500, max_column_width=20, wrap_max=1, justify='c')
-        print(table)
 
-        del_no = input('Güncellemek istediğiniz satırın Kayıt No giriniz: ')
 
-        cur.execute(''' DELETE FROM WorkerList WHERE worker_no = '{0}' '''.format(del_no))
-        showlist()
-        addworker()
-    except IndexError:
-        print('Liste Boş')
-
+# def update():
 
 
 def dbmenu():
-    last = input('Database Ayarları \n [Y]edekle ve Sil \t [B]ackup Temizle \t [V]azgeç \n ---> ').strip()
+    last = input('Database Ayarları \n [Y]edekle ve Sil \t [V]azgeç \n ---> ').strip()
     if last.lower() == 'y':
         dboptions.backup()
         dboptions.deletedb()
         dboptions.createtable()
-    elif last.lower() == 'b':
-        dboptions.clearbackup()
     else:
         mainmenu()
 

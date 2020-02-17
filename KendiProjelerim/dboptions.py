@@ -38,4 +38,6 @@ def clearbackup():
 
     else:
         print('Klasör Boş')
-createtable()
+
+
+
