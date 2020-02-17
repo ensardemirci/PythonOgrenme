@@ -25,3 +25,17 @@ def createtable():
     working_count INTEGER NOT NULL ,
     not_working_count INTEGER NOT NULL ,
     total_count INTEGER ) ''')
+
+def clearbackup():
+    open = 'D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/Backup'
+    os.chdir(open)
+    list = os.listdir()
+    if list:
+
+        for file in list:
+            os.remove(file)
+        print('Tüm yedek dosyaları silindi.')
+
+    else:
+        print('Klasör Boş')
+createtable()
