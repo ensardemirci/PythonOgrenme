@@ -2,6 +2,8 @@ import sqlite3
 from columnar import columnar
 from KendiProjelerim import dboptions
 
+
+
 dir = 'D:/Ensar Belgeleri/PythonOgrenme/KendiProjelerim/db/bdo.db'
 conn = sqlite3.connect(dir)
 cur = conn.cursor()
